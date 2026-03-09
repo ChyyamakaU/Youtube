@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Youtube clone</title>
+    <script src="https://kit.fontawesome.com/fbf4810423.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../public/output.css">
+</head>
+
+<body class="overflow-x-hidden">
+    <header class="sticky top-0 z-20 bg-white pb-4 ">
+        <nav class="flex justify-between items-center gap-20 pl-8 pr-8">
+            <div class="flex justify-center items-center gap-5">
+                <i class="fa-solid fa-bars"></i>
+                <img class="w-28" src="../public/image/youtube-logo-png-transparent-image-5.png" alt="logo">
+                <p class="text-gray-600 relative bottom-3 right-6 text-xs">NG</p>
+            </div>
+
+            <div class="flex justify-between items-center gap-11">
+                <div class="flex border rounded-full">
+                    <input class="pl-5 font-medium bg-taupe-50 w-96 h-12 rounded-bl-full rounded-tl-full" type="text"
+                        placeholder="Search">
+                    <button class="relative right-1 w-16 h-12 rounded-tr-full rounded-br-full bg-taupe-100"><i
+                            class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+
+                <div class="w-8 h-8 bg-gray-100 rounded-full p-1">
+                    <i class="fa-solid fa-microphone"></i>
+                </div>
+            </div>
+
+            <div class="flex justify-between gap-12 items-center">
+                <div class="flex justify-center items-center gap-3 h-8 w-24 bg-gray-100 rounded-full">
+                    <i class="fa-solid fa-plus"></i>
+                    <p class="font-medium">Create</p>
+                </div>
+                
+                <div>
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+
+                <img class="w-8 rounded-full" src="../public/image/meeeeee.jpg" alt="profile photo">
+            </div>
+        </nav>
+
+        <div class="flex justify-between pl-28 pr-9 pt-5 text-sm font-medium overflow-x-scroll shrink-0 ">
+
+            <p class="bg-black text-white w-10 h-8 rounded-md pl-2.5 pt-1">All</p>
+            <p class="bg-gray-100 h-8 w-20 rounded-md pl-3 pt-1 ">Podcasts</p>
+            <p class="bg-gray-100 h-8 w-14 rounded-md pl-2 pt-1">News</p>
+            <p class="bg-gray-100 h-8 w-16 rounded-md pl-3 pt-1">Music</p>
+            <p class="bg-gray-100 h-8 w-16 rounded-md pl-3 pt-1">Mixes</p>
+            <p class="bg-gray-100 h-8 w-28 rounded-md pl-2.5 pt-1">Social sciences</p>
+            <p class="bg-gray-100 h-8 w-11 rounded-md pl-2.5 pt-1">Live</p>
+            <p class="bg-gray-100 h-8 w-24 rounded-md pl-3 pt-1">Nollywood</p>
+            <p class="bg-gray-100 h-8 w-11 rounded-md pl-3 pt-1">CSS</p>
+            <p class="bg-gray-100 h-8 w-20 rounded-md pl-2 pt-1">JavaScript</p>
+            <p class="bg-gray-100 h-8 w-16 rounded-md pl-3 pt-1">Playlist</p>
+            <p class="bg-gray-100 h-8 w-20 rounded-md pl-2 pt-1">Computer</p>
+            <p class="bg-gray-100 h-8 w-20 rounded-md pl-3 pt-1">Watched</p>
+
+        </div>
+    </header>
+
+    <!-- <main>snap-y snap-mandatory -->
+    <section>
+        <div class=" bg-gray-50 fixed top-0 z-30 pl-3 pt-4 mt-16 w-56 h-screen overflow-y-scroll">
+            <div>
+                <div class="flex items-center gap-12 bg-gray-200 rounded-md h-10">
+                    <i class="fa-regular fa-house pl-6"></i>
+                    <a href="#">
+                        <p class="font-medium relative right-1">Home</p>
+                    </a>
+                </div>
+                <div class="flex items-center gap-12 pl-6 mt-3">
+                    <img class="w-5" src="../public/image/youtube-shorts.jpg" alt="">
+                    <a href="">
+                        <p class="relative right-6"> Shorts</p>
+                    </a>
+                </div>
+            </div>
+
+            <hr class="mr-3 mt-5">
+
+            <div>
+                <a href="">
+                    <h3 class="font-medium mt-3 pl-5">Subscriptions</h3>
+                </a>
+                <div class="mt-5">
+                    <div class="flex items-center gap-12 pl-6">
+                        <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile (2).jpg" alt="">
+                        <p class="relative right-5 "> Pschology &...</p>
+                    </div>
+
+                    <div class="flex items-center gap-12 pl-6 mt-4">
+                        <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile.jpg"
+                            alt="luxury acdemy">
+                        <p class="relative right-5 "> Luxury Aca...</p>
+                    </div>
+
+                    <div class="flex items-center gap-12 pl-6 mt-4">
+                        <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile (3).jpg" alt="">
+                        <p class="relative right-5 ">Catholic Di...</p>
+                    </div>
+
+                    <div class="flex items-center gap-12 pl-6 mt-4">
+                        <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile (1).jpg" alt="">
+                        <p class="relative right-5 ">Helen & Paul</p>
+                    </div>
+
+                    <div class="flex items-center gap-12 pl-6 mt-5">
+                        <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile (5).jpg" alt="">
+                        <p class="relative right-5 ">Health Ed...</p>
+                    </div>
+
+                    <div class="flex items-center gap-12 pl-6 mt-4">
+                        <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile (4).jpg" alt="">
+                        <p class="relative right-5 "> Reality Club</p>
+                    </div>
+                    <details>
+                        <summary>
+                            <div class="flex items-center gap-14 pl-6">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <p class="relative right-7">Show more <span></span></p>
+                            </div>
+                        </summary>
+                        <div class="flex items-center gap-12 pl-6 mt-4">
+                            <img class="w-5 h-5 rounded-full" src="../public/image/unnamed.jpg" alt="">
+                            <p class="relative right-5 ">BBC News...</p>
+                        </div>
+
+                        <div class="flex items-center gap-12 pl-6 mt-4">
+                            <img class="w-5 h-5 rounded-full" src="../public/image/unnamed (1).jpg" alt="">
+                            <p class="relative right-5 "> Alex the...</p>
+                        </div>
+
+                    </details>
+                </div>
+
+            </div>
+            <hr class="mr-3 mt-5">
+
+            <div>
+
+                <div class="flex items-center gap-2 pl-6 mt-4 ">
+                    <p>You</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+
+                <div>
+                    <div class="flex items-center gap-12 pl-6 mt-4">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <p class="relative right-5 ">History</p>
+                    </div>
+
+                    <div class="flex items-center gap-12 pl-6 mt-4">
+                        <img class="w-5" src="../public/image/playlist.png" alt="playlist icon">
+                        <p class="relative right-5 ">PLaylists</p>
+                    </div>
+
+                    <div class="flex items-center gap-12 pl-6 mt-4">
+                        <img class="w-5" src="../public/image/clock.png" alt="">
+                        <p class="relative right-5 ">Watch Later</p>
+                    </div>
+
+                    <div class="flex items-center gap-12 pl-6 mt-4">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <p class="relative right-5 ">Liked Videos</p>
+
+                    </div>
+
+                    <div class="flex items-center gap-12 pl-6 mt-4">
+                        <i class="fa-brands fa-youtube"></i>
+                        <p class="relative right-5 ">Your Videos</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mr-3 mt-5">
+
+            <div>
+                <h3 class="font-medium mt-3 pl-5">Explore</h3>
+                <div class="flex items-center gap-12 pl-6 mt-4">
+                    <img class="w-5" src="../public/image/musical-note.png" alt="music icon">
+                    <p class="relative right-5 ">Music</p>
+                </div>
+
+                <div class="flex items-center gap-12 pl-6 mt-4">
+                    <img class="w-5" src="../public/image/youtube-gaming.png" alt="">
+                    <p class="relative right-5 ">Gaming</p>
+                </div>
+
+                <div class=" flex items-center gap-12 pl-6 mt-4">
+                    <i class="fa-regular fa-newspaper"></i>
+                    <p class="relative right-5 "> News</p>
+                </div>
+
+                <div class="flex items-center gap-12 pl-6 mt-4">
+                    <i class="fa-solid fa-angle-down"></i>
+                    <p class="relative right-5 ">Show More</p>
+                </div>
+            </div>
+
+            <hr class="mr-3 mt-5 ">
+
+            <div>
+
+                <h3 class="font-medium mt-3 pl-5">More from YouTube</h3>
+
+                <div class="flex items-center gap-12 pl-6 mt-4">
+                    <img class="w-5" src="../public/image/youtube (1).png" alt="">
+                    <p class="relative right-5 text-sm">YouTube Prem...</p>
+
+                </div>
+
+                <div class="flex items-center gap-12 pl-6 mt-4">
+                    <img class="w-5" src="../public/image/images (1).png" alt="Youtube Studio">
+                    <p class="relative right-5 text-sm">YouTube Studio</p>
+
+                </div>
+
+                <div class="flex items-center gap-12 pl-6 mt-4">
+                    <img class="w-5" src="../public/image/app.png" alt="YouTube music">
+                    <p class="relative right-5 text-sm ">YouTube Music</p>
+
+                </div>
+
+                <div class="flex items-center gap-12 pl-6 mt-4">
+                    <img class="w-5" src="../public/image/youtube-kids.png" alt="Youtube kids">
+                    <p class="relative right-5 text-sm">YouTube Kids</p>
+
+                </div>
+
+            </div>
+
+            <hr class="mr-3 mt-5">
+
+            <div>
+                <div class="flex items-center gap-12 pl-6 mt-4">
+                    <i class="fa-solid fa-gear"></i>
+                    <p class="relative right-5">Settings</p>
+                </div>
+
+                <div class="flex items-center gap-12 pl-6 mt-4">
+                    <i class="fa-regular fa-font-awesome"></i>
+                    <p class="relative right-5">Report History</p>
+                </div>
+
+                <div class="flex items-center gap-12 pl-6 mt-4">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p class="relative right-5">Help</p>
+                </div>
+
+                <div class="flex items-center gap-12 pl-6 mt-4">
+                    <i class="fa-regular fa-message"></i>
+                    <p class="relative right-5">Send Feedback</p>
+                </div>
+
+            </div>
+            <hr class="mr-3 mt-5">
+
+            <div>
+                <div class="flex gap-1 font-medium text-sm pl-3 text-gray-700">
+                    <p>About</p>
+                    <p>Press</p>
+                    <p>Copyright</p>
+                    <p></p>
+                </div>
+
+                <div class="flex gap-1 font-medium text-sm pl-3 text-gray-700">
+                    <p>Contactus</p>
+                    <p>Creators</p>
+                    <p>Advertise</p>
+                </div>
+                <p class="font-medium text-sm pl-3 text-gray-700">Developers</p>
+                <div class="flex gap-1 font-medium text-sm pl-3 mt-3 text-gray-700">
+                    <p>Terms</p>
+                    <p>Privacy</p>
+                    <p>Policy & Safety</p>
+                </div>
+
+                <p class="font-medium text-sm pl-3 text-gray-700">How YouTube works</p>
+                <p class="font-medium text-sm pl-3 text-gray-700">Test new features</p>
+            </div>
+            <p class="text-xs pl-3 text-gray-700 mb-20">2026 Google LLC</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="grid grid-cols-3 gap-5">
+            <div class="mt-10 ml-10 relative right-4 bg-white hover:bg-blue-50 rounded-2xl">
+                <img class="w-96 h-48 rounded-2xl" src="../public/image/hq720 (1).webp" alt="udemy thumbnail">
+
+                <div class="flex justify-between items-center gap-3">
+                    <img class="w-5 h-5 rounded-full " src="../public/image/unnamed.png" alt="udemy logo">
+                    <h3 class="text-sm font-medium">Learn from professionals, anytime, <br>
+                        further your career today.</h3>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <p class="text-xs text-gray-500 relative left-16 mt-1"><span class="font-medium">Sponsored .</span>
+                    Udemy, Inc.</p>
+                <div class="text-sm mt-3">
+                    <button class="w-44 h-9 rounded-full bg-gray-100">Watch</button>
+                    <button class="w-44 h-9 rounded-full bg-black text-white">Start Now</button>
+                </div>
+            </div>
+
+
+            <div class="mt-10 bg-white hover:bg-amber-50 rounded-2xl">
+                <img class="w-96 h-48 rounded-2xl " src="../public/image//hqdefault.jpg" alt="">
+                <div class="flex jjustify-around items-center gap-20 mt-5">
+
+                    <h3 class="text-sm">Mix-Slipping through my fingers-Mamma<br>Mia (lyrics)
+                    </h3>
+                    <i class="fa-solid fa-ellipsis-vertical relative left-7"></i>
+                </div>
+                <p class="text-xs text-gray-500 mt-1">Gigi Perez, Cup of Joe, Yung Kai, and more
+                </p>
+            </div>
+
+            <div class="mt-10 relative right-2 bg-white hover:bg-pink-50 rounded-2xl">
+                <img class="w-96 h-48 rounded-2xl " src="../public/image/hq720.webp" alt="">
+                <div class="flex justify-around items-center gap-12 mt-5">
+                    <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile.jpg" alt="luxury acdemy">
+                    <h3 class="text-sm relative right-16">Luxury Fatique</h3>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <div class="relative left-24 text-xs text-gray-500 mt-1">
+                    <p>Luxury Academy Newsletter</p>
+                    <p> 11k views . 5 months ago</p>
+                </div>
+            </div>
+        <!-- </div> -->
+
+        <!-- <div class="flex justify-between relative gap-9 bottom-12 m-10"> -->
+            <div class="ml-10 relative right-4 bg-white hover:bg-gray-100 rounded-2xl mt-5">
+                <img class="w-96 h-48 rounded-2xl " src="../public/image/hqdefault.webp" alt="visa on arrival">
+                <div class="flex justify-between items-center gap-7 mt-5">
+                    <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile (6).jpg" alt="">
+                    <h3 class="text-sm relative right-10">Visa On Arrival S6/Uniform to <br>uniform//Comedy/Drama
+                    </h3>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <p class="text-xs text-gray-500 relative left-12 mt-1">Accelerate TV</p>
+                <p class="text-xs text-gray-500 relative left-12 mt-1">500k views. 1 year ago</p>
+            </div>
+
+            <div class=" bg-white hover:bg-green-50 rounded-2xl mt-5">
+
+                <img class="w-96 h-48 rounded-2xl " src="../public/image/sddefault.webp" alt="Arise news">
+
+                <div class="flex justify-between items-center gap-7 mt-5">
+                    <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile (7).jpg" alt="">
+                    <h3 class="text-sm">X-raying Tinubu's Ambassadorial Postings. <br>Frank Tiete</h3>
+                    <i class="fa-solid fa-ellipsis-vertical relative right-4"></i>
+                </div>
+                <p class="text-xs text-gray-500 relative left-16 mt-1 ml-2.5">Arise News. 3.1k views. 3 hours ago</p>
+            </div>
+
+
+            <div class="relative right-4 bg-white hover:bg-red-50 rounded-2xl mt-5 ml-2">
+                <img class="w-96 h-48 rounded-2xl " src="../public/image/hq720 (2).webp" alt="">
+
+                <div class="flex justify-between items-center gap-7 mt-5">
+                    <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile (8).jpg" alt="">
+                    <h3 class="text-sm relative right-6">HTML and CSS for beginners 2024</h3>
+                    <i class="fa-solid fa-ellipsis-vertical relative right-5 "></i>
+                </div>
+                <p class="text-xs text-gray-500 relative left-16 ml-1.5 mt-1">Great Stack. 602k views. 2 years ago</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="relative bottom-7 mt-7">
+            <div class="flex items-center justify-between pl-36 pr-12">
+                <div class="flex items-center gap-3 text-2xl font-bold">
+                    <img class="w-5 h-5" src="../public/image/Youtube_shorts_icon.svg.png" alt="shorts icon">
+                    <h2 class="text-md font-medium">Shorts</h2>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical relative left-3"></i>
+            </div>
+            <div class="flex gap-4 relative left-32 mt-5">
+
+                <div class="bg-white hover:bg-blue-50 rounded-2xl">
+                    <img class="w-52 h-80 rounded-md" src="../public/image/oar3.webp" alt="">
+                    <div class="flex items-center gap-1">
+                        <h3 class="text-sm font-medium pt-4">Why trying to look confident <br>backfires</h3>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                    <p class="text-gray-600 text-xs">42k views</p>
+                </div>
+
+
+                <div class="bg-white hover:bg-gray-100 rounded-2xl">
+                    <img class="w-52 h-80 rounded-md" src="../public/image/oar2.webp" alt="">
+                    <div class="flex items-center gap-1">
+                        <h3 class="text-sm font-medium pt-4">Ramadan Kareem</h3>
+                        <i class="fa-solid fa-ellipsis-vertical relative left-16"></i>
+                    </div>
+                    <p class="text-gray-600 text-xs">3k views</p>
+                </div>
+
+
+                <div class="bg-white hover:bg-pink-50 rounded-2xl">
+
+                    <img class="w-52 h-80 rounded-md" src="../public/image/oardefault.webp" alt="">
+                    <div class="flex items-center gap-1">
+                        <h3 class="text-sm font-medium pt-4">Pricing</h3>
+                        <i class="fa-solid fa-ellipsis-vertical relative left-36"></i>
+                    </div>
+                    <p class="text-gray-600 text-xs">400 views</p>
+                </div>
+
+                <div class="bg-white hover:bg-gray-100 rounded-2xl">
+
+                    <img class="w-52 h-80 rounded-md" src="../public/image/oardefault (1).webp" alt="">
+
+                    <div class="flex items-center gap-1">
+                        <h3 class="text-sm font-medium pt-4">Talking about respect but <br> forgeting his name.</h3>
+                        <i class="fa-solid fa-ellipsis-vertical relative left-7"></i>
+                    </div>
+                    <p class="text-gray-600 text-xs">4k views</p>
+                </div>
+
+                <div class="bg-white hover:bg-orange-50 rounded-2xl">
+                    <img class="w-52 h-80 rounded-md" src="../public/image/oar2 (1).webp" alt="">
+                    <div class="flex items-center gap-1">
+                        <h3 class="text-sm font-medium pt-4">When the servers have to say <br> my pleasure.</h3>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                    <p class="text-gray-600 text-xs">12k views</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section >
+
+        <div class="flex justify-between relative gap-9 bottom-12 m-10">
+            <div class="ml-10 relative right-4 bg-white hover:bg-gray-100 rounded-2xl">
+                <img class="w-96 h-48 rounded-2xl " src="../public/image/hqdefault.webp" alt="visa on arrival">
+                <div class="flex justify-between items-center gap-7 mt-5">
+                    <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile (6).jpg" alt="">
+                    <h3 class="text-sm relative right-10">Visa On Arrival S6/Uniform to <br>uniform//Comedy/Drama
+                    </h3>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <p class="text-xs text-gray-500 relative left-12 mt-1">Accelerate TV</p>
+                <p class="text-xs text-gray-500 relative left-12 mt-1">500k views. 1 year ago</p>
+            </div>
+
+            <div class="relative right-4 bg-white hover:bg-gray-100 rounded-2xl">
+
+                <img class="w-96 h-48 rounded-2xl " src="../public/image/sddefault.webp" alt="Arise news">
+
+                <div class="flex justify-between items-center gap-7 mt-5">
+                    <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile (7).jpg" alt="">
+                    <h3 class="text-sm">X-raying Tinubu's Ambassadorial Postings. <br>Frank Tiete</h3>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <p class="text-xs text-gray-500 relative left-12 mt-1">Arise News. 3.1k views. 3 hours ago</p>
+            </div>
+
+
+            <div class="relative right-4 bg-white hover:bg-amber-50 rounded-2xl">
+                <img class="w-96 h-48 rounded-2xl " src="../public/image/hq720 (2).webp" alt="">
+
+                <div class="flex justify-between items-center gap-7 mt-5">
+                    <img class="w-5 h-5 rounded-full" src="../public/image/channels4_profile (8).jpg" alt="">
+                    <h3 class="text-sm relative right-6">HTML and CSS for beginners 2024</h3>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <p class="text-xs text-gray-500 relative left-12 mt-1">Great Stack. 602k views. 2 years ago</p>
+            </div>
+        </div>
+
+    </section>
+
+    </main>
+
+
+</body>
+
+</html>
